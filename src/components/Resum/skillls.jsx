@@ -11,19 +11,15 @@ function Skills() {
       transition={{ duration: 0.5 }}
       className="w-full my-16 flex gap-20 flex-col"
     >
-      <div className="header flex gap-10 w-full">
-        <div className="left w-1/2 ">
-          {" "}
-          <p className="text-sm text-designcolor tracking-[4px] uppercase">Fetures</p>
-          <h2 className="text-2xl font-bold capitalize">Design Skill</h2>
-        </div>
-        <div className="right w-1/2 ">
-          <p className="text-sm text-designcolor tracking-[4px] uppercase">Fetures</p>
-          <h2 className="text-2xl font-bold capitalize">Development Skill</h2>
-        </div>
-      </div>
-      <div className="content w-full gap-10 overflow-x-hidden flex -mt-7">
-        <div className="left w-1/2">
+      <div className="content w-full md:ap-10 overflow-x-hidden flex -mt-7 md:flex-row flex-col gap-3 ">
+        <div className="left md:w-1/2  md:pl-0 pl-5 md:pr-0 pr-5">
+          <div className="mt-5 py-10">
+            {" "}
+            <p className="text-sm text-designcolor tracking-[4px] uppercase mb-3">
+              Fetures
+            </p>
+            <h2 className="text-2xl font-bold capitalize ">Design Skill</h2>
+          </div>
           <div className="data mb-6 ">
             <p className="text-sm font-medium uppercase tracking-[4px]">
               Phtoshop
@@ -115,7 +111,14 @@ function Skills() {
             </span>
           </div>
         </div>
-        <div className="right w-1/2 overflow-x-hidden">
+        <div className="right md:w-1/2 overflow-x-hidden md:pl-0 pl-5 md:pr-0 pr-5">
+          <div className="py-10 mt-5">
+            {" "}
+            <p className="text-sm text-designcolor tracking-[4px] uppercase font-titleFont mb-3">
+              Fetures
+            </p>
+            <h2 className="text-2xl font-bold capitalize">Development Skill</h2>
+          </div>
           <div className="data mb-6">
             <p className="text-sm font-medium uppercase tracking-[1px]">
               React.js

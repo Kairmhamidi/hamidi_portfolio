@@ -105,7 +105,7 @@ function Baner() {
               <h3 className="md:text-center font-normal tracking-wider font-titleFont">
                 Best skills on
               </h3>
-              <div className="best flex gap-3 mt-6">
+              <div className="best flex gap-3 mt-6 md:pr-0 pr-5">
                 <span className="md:w-10 md:h-10 w-15 h-15  rounded-md shadow-md inline-flex justify-center items-center bg-black/25 cursor-pointer hover:translate-y-1 hover:text-designcolor transition-all duration-300 ">
                   <FaReact />
                 </span>
@@ -132,10 +132,10 @@ function Baner() {
           <img
             src={Image}
             alt=""
-            className="md:w-[500px] md:h-[680px] w-[400px] h-[500px] z-10  border-b-black/25  rounded pb-16"
+            className="md:w-[500px] md:h-[680px] w-[300px] mx-auto h-[450px] z-10  border-b-black/25  rounded pb-16"
           />
 
-          <div className="absolute shadow-myshadow rounded md:w-[500px] md:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] b-0 flex justify-center items-center md:left-[16%] md:top-[18%] left-10 top-22 w-[500px] h-[350px]"></div>
+          <div className="absolute shadow-myshadow rounded md:w-[550px] md:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] b-0 flex justify-center items-center md:left-[16%] md:top-[18%] left-5 top-22 w-[320px] h-[300px]"></div>
         </div>
       </div>
     </section>

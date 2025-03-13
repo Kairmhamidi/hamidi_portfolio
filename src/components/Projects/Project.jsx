@@ -20,7 +20,7 @@ function Project() {
         </h1>
         <h3 className="font-bold text-5xl">My projects</h3>
       </div>
-      <div className="div grid md:grid-cols-3 gap-7">
+      <div className="div grid md:grid-cols-3 md:gap-7">
         <Projectscart
           image={First}
           title="learning management"
