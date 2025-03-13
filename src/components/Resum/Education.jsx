@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 function Education() {
   return (
     <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5}}>
-      <div className="div py-12 font-titleFont flex justify-between">
+      <div className="div py-12 font-titleFont flex justify-between ">
         <div className="left">
           {" "}
           <p className="text-sm text-designcolor tracking-[4px]">2008 - 2024</p>
@@ -17,8 +17,8 @@ function Education() {
           <h2 className="text-2xl font-bold capitalize">Job Experience</h2>
         </div>
       </div>
-      <div className="flex justify-between  gap-20">
-        <div className="w-1/2 border-l-[6px] border-l-black/30 h-[1000px] flex flex-col gap-10 ">
+      <div className="flex justify-between  gap-20 md:flex-row flex-col md:pl-0 pl-4">
+        <div className="md:w-1/2 border-l-[6px] border-l-black/30 h-[1000px] flex flex-col gap-10 md:pr-0 pr-5">
           <Resumecart
             title="BCS in Computer Science"
             subtitle="Ghalib (2020 - 2024)"
@@ -38,7 +38,7 @@ function Education() {
             descriptions=" The training prpvided by universities in order to prepare people to workd in various sectors of the economy areas of the culture"
           />
         </div>
-        <div className=" w-1/2 right border-r-[6px] border-r-black/30 h-[1000px] flex flex-col gap-10">
+        <div className=" md:w-1/2 right border-r-[6px] border-r-black/30 h-[1000px] flex flex-col gap-10 md:mr-0 mr-5">
           <Rightresumcart
             title="Software engineer "
             subtitle="Wassa organization (2022,2023)"

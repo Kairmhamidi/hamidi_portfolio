@@ -10,7 +10,7 @@ function Features() {
   return (
     <section
       id="Features"
-      className="w-full  pb-20 borer-b-[1px] border-b-black "
+      className="w-full  pb-20 borer-b-[1px] border-b-black ml-3 md:pr-4 pr-7"
     >
       <div className="flex flex-col gap-5 font-titleFont mb-12">
         <h3 className="text-sm text-designcolor tracking-wide capitalize">
@@ -21,7 +21,7 @@ function Features() {
         </h1>
       </div>
 
-      <div className="div grid grid-cols-3 gap-10">
+      <div className="div grid md:grid-cols-3 gap-10">
         <Cart
           title="Web development"
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime delectus non laudantium? Magnam quos dolorem suscipit,"

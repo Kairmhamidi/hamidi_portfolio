@@ -14,12 +14,12 @@ function Resum() {
     <section id="Resume" className="py-20 w-full border-b-[1px] border-b-black">
       <div className="title flex justify-center items-center flex-col">
         <h3 className="text-designcolor tracking-tight font-normal capitalize">
-          4+ years of experience
+          3+ years of experience
         </h3>
         <h1 className="text-5xl font-bodyFont font-bold">My Resume</h1>
       </div>
-      <div className="w-full">
-        <ul className="w-[80%] mx-auto grid grid-cols-4 mt-10 ">
+      <div className="w-full ">
+        <ul className="md:w-[80%] w-[90%] mx-auto grid md:grid-cols-4 mt-10  rounded-lg">
           <li
             className={`${
               educationdata
