@@ -30,6 +30,9 @@
   width: 12px !important;
   height: 12px !important;
 }
+html, body {
+  overflow-x: hidden;
+}
 .resume{
 @apply text-xl w-full h-20  flex justify-center bg-black/25  text-gray-300 hover:bg-black/40 cursor-pointer duration-300 items-center  
 }
