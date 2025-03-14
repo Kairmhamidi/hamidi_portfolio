@@ -4,7 +4,7 @@ import { HiArrowRight } from "react-icons/hi";
 
 export default function Cart({title,desc,icon}) {
   return (
-    <div className="h-80  px-12 rounded-lg shadow-myshadow flex items-center bg-gradient-to-r from-bodyColor to-[#202327] group  hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 overflow-hidden">
+    <div className="h-80  px-12 rounded-lg shadow-myshadow flex items-center bg-gradient-to-r from-bodyColor to-[#202327] group  hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 ">
       <div className='h-72 overflow-y-hidden'>
         <div className="flex gap-6 flex-col w-full translate-y-14 hover:translate-y-0 transition-transform duration-300">
           <div>

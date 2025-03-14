@@ -10,9 +10,9 @@ function Features() {
   return (
     <section
       id="Features"
-      className="w-full  pb-20 borer-b-[1px] border-b-black ml-3 md:pr-4 pr-7 overflow-hidden"
+      className="w-full  pb-20 borer-b-[1px] border-b-black ml-3 md:pr-4 pr-7 "
     >
-      <div className="flex flex-col gap-5 font-titleFont mb-12 overflow-hidden">
+      <div className="flex flex-col gap-5 font-titleFont mb-12 ">
         <h3 className="text-sm text-designcolor tracking-wide capitalize">
           Features
         </h3>
