@@ -11,10 +11,10 @@ function Resumecart({ title, subtitle, result, descriptions }) {
       <div className="w-full bg-black/20 hover:bg-black-30 duration-300 rounded-lg px-10  gap-10 shadow-myshadow flex flex-col justify-center items-center ">
         <div className="first w-full flex justify-between">
           <div className="mt-5">
-            <h3 className="text-2xl group-hover:text-white duration-300">
+            <h3 className="md:text-2xl text-1xl group-hover:text-white duration-300">
               {title}
             </h3>
-            <p className="font-semibold text-sm text-gray-400 group-hover:text-white mt-2 duration-300">
+            <p className="font-semibold md:text-sm text-xs text-gray-400 group-hover:text-white mt-2 duration-300">
               {subtitle}
             </p>
           </div>
@@ -24,7 +24,9 @@ function Resumecart({ title, subtitle, result, descriptions }) {
             </p>
           </div>
         </div>
-        <p className="text-gray-400 group-hover:text-white duration-300">{descriptions}</p>
+        <p className="text-gray-400 group-hover:text-white duration-300 text-sm leading-6">
+          {descriptions}
+        </p>
       </div>
     </div>
   );

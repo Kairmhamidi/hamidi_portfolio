@@ -1,12 +1,39 @@
-import React from 'react'
-import Cart from '../../extra/Cart'
-import {FaBars,FaDeaf,FaGlobe,FaHandPointer,FaMobile,FaWindows} from 'react-icons/fa'
-import {AiFillApi, AiFillAppstore, AiFillGoogleCircle, AiFillRobot, AiOutlineBarChart, AiOutlineGlobal, AiOutlineLineChart, AiOutlinePartition, AiOutlineSearch, AiOutlineUser, AiOutlineUserAdd} from 'react-icons/ai'
-import {MdOutlineSmartphone} from 'react-icons/md'
-import {FiLayers} from 'react-icons/fi'
+import React from "react";
+import Cart from "../../extra/Cart";
+import {
+  FaBars,
+  FaDeaf,
+  FaGlobe,
+  FaHandPointer,
+  FaMobile,
+  FaWindows,
+} from "react-icons/fa";
+import {
+  AiFillApi,
+  AiFillAppstore,
+  AiFillGoogleCircle,
+  AiFillRobot,
+  AiOutlineBarChart,
+  AiOutlineGlobal,
+  AiOutlineLineChart,
+  AiOutlinePartition,
+  AiOutlineSearch,
+  AiOutlineUser,
+  AiOutlineUserAdd,
+} from "react-icons/ai";
+import { FaLaptopCode } from "react-icons/fa";
+import { FaCodeBranch } from "react-icons/fa";
+import { MdOutlineVideoLibrary } from "react-icons/md";
+import { SiTensorflow } from "react-icons/si";
+import { FaChartLine } from "react-icons/fa";
+import { BiCloud } from "react-icons/bi";
+
+
+
+import { MdOutlineSmartphone } from "react-icons/md";
+import { FiLayers } from "react-icons/fi";
 
 function Features() {
-
   return (
     <section
       id="Features"
@@ -23,38 +50,40 @@ function Features() {
 
       <div className="div grid md:grid-cols-3 gap-10 md:pr-0 pr-4 md:pl-0 pl-2">
         <Cart
-          title="Web development"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime delectus non laudantium? Magnam quos dolorem suscipit,"
-          icon={<FaBars />}
+          title="Freelance Web Developer"
+          desc="Create websites, web apps, and e-commerce stores for clients on platforms like Upwork and Fiverr. Earn through custom projects and maintenance services.
+
+"
+          icon={<FaLaptopCode />}
         />
         <Cart
-          title="python development"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime delectus non laudantium? Magnam quos dolorem suscipit,"
-          icon={<AiFillAppstore />}
+          title="Full-Stack Developer"
+          desc="Work in a company building frontend (React/Next.js) and backend (Node.js/Python) applications. Develop and maintain scalable web solutions."
+          icon={<FaCodeBranch />}
         />
         <Cart
-          title="Ai Anlyzer"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime delectus non laudantium? Magnam quos dolorem suscipit, "
-          icon={<FaBars />}
+          title="Content Creator "
+          desc=" Teach web development through blogs or YouTube tutorials. Monetize via ads, sponsorships, courses, or selling coding resources."
+          icon={<MdOutlineVideoLibrary />}
         />
         <Cart
-          title="Mobile developer"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime delectus non laudantium? Magnam quos dolorem suscipit,"
-          icon={<MdOutlineSmartphone/>}
+          title="AI Web App Developer"
+          desc="Build AI-powered web applications like chatbots and face recognition using Next.js and TensorFlow.js. Offer SaaS solutions or custom AI services."
+          icon={<SiTensorflow />}
         />
         <Cart
-          title="Ux designer"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime delectus non laudantium? Magnam quos dolorem suscipit, "
-          icon={<FiLayers />}
+          title="Web Consultant"
+          desc="Advise businesses on improving their websites, performance, SEO, and UI/UX. Help optimize and scale web applications for better user experience."
+          icon={<FaChartLine />}
         />
         <Cart
-          title="code writer"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime delectus non laudantium? Magnam quos dolorem suscipit"
-          icon={<FaGlobe />}
+          title="SaaS Developer"
+          desc="Create and sell web-based software-as-a-service (SaaS) applications. Develop tools like project management apps, analytics dashboards, or automation platforms."
+          icon={<BiCloud />}
         />
       </div>
     </section>
   );
 }
 
-export default Features
+export default Features;

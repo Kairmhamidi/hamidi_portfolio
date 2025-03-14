@@ -20,7 +20,7 @@ function Baner() {
   return (
     <section
       id="Home"
-      className="w-full py-20 pb-20 flex  items-center border-b-[1px] border-b-black overflow-hidden"
+      className="w-full md:py-20 py-5 pb-20 flex  items-center border-b-[1px] border-b-black overflow-hidden relative"
     >
       <div className="div w-full flex md:flex-row flex-col ">
         <div className="left md:w-1/2 mt-14 w-full md:ml-0 ml-2">
@@ -28,9 +28,11 @@ function Baner() {
             <h3 className="text-lg font-normal space-x-1 font-titleFont">
               Welcome to my world{" "}
             </h3>
-            <h1 className="text-6xl font-bold text-white capitalize md:break-normal font-bodyFont">
-              Hi, I'm
-              <span className=" font-bold text-designcolor font-bodyFont">Karim Hamidi</span>
+            <h1 className="md:text-6xl text-4xl font-bold text-white capitalize md:break-normal font-bodyFont">
+              <h1>Hi, I'm</h1>
+              <span className=" font-bold text-designcolor font-bodyFont">
+                Karim Hamidi
+              </span>
             </h1>
             <h2 className="text-4xl font-bold text-white flex gap-2">
               a{" "}
@@ -59,13 +61,13 @@ function Baner() {
               </span>
             </h2>
             <p className="md:text-base font-bodyFont leading-6 tracking-wide text-sm md:pr-0 pr-1">
-              a JavaScript-based technology stack for building full-stack web
-              applications. It provides a seamless development experience,
-              allowing developers to use JavaScript for both frontend and
-              backend, ensuring efficiency, scalability, and high performance.
+              I am a MERN stack web developer skilled in Next.js,Node.js,React.js,Mongodb, Tailwind CSS,
+              and AI integration. I build scalable web applications and have
+              experience in authentication systems, LMS, and AI projects.
+              Passionate about machine learning, NLP, and computer vision.
             </p>
           </div>
-          <div className="findme mt-[8rem] flex md:justify-between md:flex-row flex-col md:gap-0 gap-5">
+          <div className="findme md:mt-[8rem] mt-[4rem] flex md:justify-between md:flex-row flex-col md:gap-0 gap-5">
             <div className="left t">
               <h2 className="md:text-center font-titleFont">Find me in</h2>
               <div className=" flex gap-4 mt-5 ">

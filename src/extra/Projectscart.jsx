@@ -7,7 +7,7 @@ function Projectscart({ title, description, firsticon, secondicon, image }) {
         <img
           src={image}
           alt=""
-          className="rounded-md hover:scale-110 hover:transition-transform duration-300 object-cover cursor-pointer "
+          className="rounded-md hover:scale-110 hover:transition-transform duration-300 object-cover cursor-pointer  "
         />
       </div>
       <div className="flex mr-14 ml-14 mb-[30px] flex-col">

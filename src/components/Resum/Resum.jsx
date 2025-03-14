@@ -11,7 +11,7 @@ function Resum() {
   const [experiencedata, setExperience] = useState(false);
   const [achievementdata, setAchievementdata] = useState(false);
   return (
-    <section id="Resume" className="py-20 w-full border-b-[1px] border-b-black overflow-hidden">
+    <section id="Resume" className="py-20 w-full border-b-[1px] border-b-black ">
       <div className="title flex justify-center items-center flex-col">
         <h3 className="text-designcolor tracking-tight font-normal capitalize">
           3+ years of experience

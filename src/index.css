@@ -33,6 +33,14 @@
 html, body {
   overflow-x: hidden;
 }
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and Edge */
+}
+
+.scrollbar-hidden {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
 .resume{
 @apply text-xl w-full h-20  flex justify-center bg-black/25  text-gray-300 hover:bg-black/40 cursor-pointer duration-300 items-center  
 }
