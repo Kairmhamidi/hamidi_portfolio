@@ -48,19 +48,19 @@ function Contact() {
 
 
   return (
-    <div id="Contact" className="w-full  py-20">
-      <div className="title flex justify-center items-center flex-col">
+    <div id="Contact" className="w-full  py-20 overflow-hidden md:pr-0 pr-3 md:pl-0 pl-3">
+      <div className="title flex justify-center items-center flex-col md:pl-0 ">
         <p className="uppercase text-xs text-designcolor">Contact</p>
         <h1 className="text-4xl font-bold capitalize mt-2">Contact with me</h1>
       </div>
-      <div className="w-full h-[700px] flex justify-between py-14">
-        <div className="h-full w-[30%]  rounded-lg bg-gradient-to-r from-[#132024] to-[#23272b] shadow-myshadow flex flex-col pt-5">
+      <div className="w-full md:h-[700px] flex md:justify-between py-14 md:flex-row flex-col">
+        <div className="h-full md:w-[30%]  rounded-lg bg-gradient-to-r from-[#132024] to-[#23272b] shadow-myshadow flex flex-col pt-5 md:pl-0 pl-3 md:pr-0 pr-3">
           <img
             src={Shaking}
             alt=""
             className="w-[350px] h-[220px] bg-cover mx-auto rounded-lg"
           />
-          <div className="informations ml-14">
+          <div className="informations md:ml-14 ">
             <h1 className="font-bold text-2xl mt-5 ">Karim hamidi</h1>
             <p className="text-xs mt-2">MERN Stack developer</p>
             <p className="text-xs mt-3 tracking-wide mr-3 ">
@@ -74,7 +74,7 @@ function Contact() {
             </p>
             <p className="mt-3 text-xs">Email : karimjanhamidi@gmail.com</p>
           </div>
-          <div className="find ml-14 mt-3">
+          <div className="find md:ml-14   mt-3 pb-3">
             <p className="uppercase">find me in</p>
             <div className="buttons flex gap-3 mt-5">
               <button className="w-10 h-10 rounded-md bg-black/20 inline-flex justify-center items-center text-white cursor-pointer hover:text-designcolor duration-500 hover:translate-y-1">
@@ -106,7 +106,7 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div className="h-full w-[60%] rounded-lg  bg-gradient-to-r from-[#132024] to-[#23272b] shadow-myshadow py-10 flex flex-col gap-8 p-8">
+        <div className="h-full md:w-[60%] rounded-lg  bg-gradient-to-r from-[#132024] to-[#23272b] shadow-myshadow py-10 flex flex-col gap-8 p-8 md:mt-0 mt-1">
           {error && (
             <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] text-center text-base shadow-myshadow rounded-lg tracking-wide animate-bounce text-orange-500">
               {error}
@@ -117,9 +117,9 @@ function Contact() {
               {success}
             </p>
           )}
-          <form>
-            <div className="flex gap-5 mb-6 font-bodyFont">
-              <div className="w-1/2">
+          <form className=" ">
+            <div className="flex gap-5 mb-6 font-bodyFont md:flex-row flex-col">
+              <div className="md:w-1/2 ">
                 <p className="text-sm uppercase text-gray-400">Your name</p>
                 <input
                   type="text"
@@ -131,7 +131,7 @@ function Contact() {
                   }`}
                 />
               </div>
-              <div className="w-1/2">
+              <div className="md:w-1/2">
                 <p className="text-sm uppercase text-gray-400">phone number</p>
                 <input
                   type="text"

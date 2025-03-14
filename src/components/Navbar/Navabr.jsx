@@ -6,7 +6,7 @@ function Navabr() {
   return (
 
       <nav className="sticky top-0 z-50 w-full h-20 bg-bodyColor border-b-[1px] border-b-gray-400 font-bodyFont">
-        <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
+        <div className="max-w-8xl mx-auto flex justify-between items-center p-4">
           <div className="flex gap-2">
             <img
               src={First}
@@ -14,7 +14,7 @@ function Navabr() {
             />
             <h1 className="mt-3 font-bold">Hamidi</h1>
           </div>
-          <ul className="flex items-center gap-10">
+          <ul className="md:flex hidden items-center gap-10">
             {Navlinks.map(({ _id, title, link }) => (
               <li key={_id} className="cursor-pointer tracking-normal hover:text-designcolor transition-all duration-300 ease-in-out">
                 <Link

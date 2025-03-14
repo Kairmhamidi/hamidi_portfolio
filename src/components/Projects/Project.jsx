@@ -12,7 +12,7 @@ function Project() {
   return (
     <section
       id="Projects"
-      className="w-full h-auto bg-bodyColor text-lighttext"
+      className="w-full h-auto bg-bodyColor text-lighttext overflow-hidden"
     >
       <div className="flex justify-center items-center flex-col mb-10">
         <h1 className=" uppercase font-normal tracking-wide text-designcolor text-sm mb-5">

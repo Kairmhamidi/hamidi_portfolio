@@ -11,8 +11,8 @@ function Footer() {
   const messageme = "Hello! I'm interested in your services.";
   return (
     <div>
-      <div className="w-full border-t-[2px] border-t-black/20 h-auto grid grid-cols-4 gap-8 py-20 border-b-[2px] border-b-black/30">
-        <div className="text-center w-full h-full  ml-15">
+      <div className="w-full border-t-[2px] border-t-black/20 h-auto grid md:grid-cols-4 grid-cols-1 gap-8 md:py-20 py-10 border-b-[2px] border-b-black/30 md:pl-0 pl-5">
+        <div className="text-center w-full h-full  md:ml-15">
           <div className="div flex gap-2">
             <img
               src={First}

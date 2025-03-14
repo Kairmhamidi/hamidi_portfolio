@@ -11,15 +11,15 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <div className="max-w-full h-auto bg-bodyColor text-lighttext">
+      <Navabr />
       <div className="data max-w-screen-2xl mx-auto ">
-        <Navabr />
         <Baner />
         <Features />
         <Project />
         <Resum />
         <Testonial />
-        <Contact/>
-        <Footer/>
+        <Contact />
+        <Footer />
       </div>
     </div>
   );
