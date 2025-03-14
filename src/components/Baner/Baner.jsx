@@ -20,7 +20,7 @@ function Baner() {
   return (
     <section
       id="Home"
-      className="w-full py-20 pb-20 flex  items-center border-b-[1px] border-b-black"
+      className="w-full py-20 pb-20 flex  items-center border-b-[1px] border-b-black overflow-hidden"
     >
       <div className="div w-full flex md:flex-row flex-col ">
         <div className="left md:w-1/2 mt-14 w-full md:ml-0 ml-2">

@@ -158,7 +158,7 @@ function Testonial() {
             </div>
           </SwiperSlide>
           <SwiperSlide className="">
-            <div className="w-full">
+            <div className="w-full overflow-hidden">
               <div className="w-full md:h-[500px]  flex md:justify-between  md:flex-row flex-col md:p-r-0 pr-6 md:pl-0 pl-6">
                 <div className="md:w-[35%] h-full bg-gradient-to-r from-[#132024] to-[#23272b] shadow-myshadow rounded-lg p-8 pl-14">
                   <img

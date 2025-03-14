@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 function Navabr() {
   return (
 
-      <nav className="sticky top-0 z-50 w-full h-20 bg-bodyColor border-b-[1px] border-b-gray-400 font-bodyFont">
+      <nav className="sticky top-0 z-50 w-full h-20 bg-bodyColor border-b-[1px] border-b-gray-400 font-bodyFont overflow-hidden">
         <div className="max-w-8xl mx-auto flex justify-between items-center p-4">
           <div className="flex gap-2">
             <img

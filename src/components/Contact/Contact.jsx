@@ -48,7 +48,7 @@ function Contact() {
 
 
   return (
-    <div id="Contact" className="w-full  py-20 overflow-hidden md:pr-0 pr-3 md:pl-0 pl-3">
+    <div id="Contact" className="w-full  py-20 overflow-hidden md:pr-0 pr-3 md:pl-0 pl-3 ">
       <div className="title flex justify-center items-center flex-col md:pl-0 ">
         <p className="uppercase text-xs text-designcolor">Contact</p>
         <h1 className="text-4xl font-bold capitalize mt-2">Contact with me</h1>
